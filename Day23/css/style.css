@@ -1,0 +1,48 @@
+.sec img {
+    width: 300px;
+    height:300px;
+    border-radius: 50% 0px ;
+    border-bottom-left-radius:50px;
+   margin-bottom: 20px;
+
+
+
+}
+
+.first img {
+
+    height: 200px;
+    width: 200px;
+    border-radius: 0px 50%;
+    border: 20px ridge rgb(231, 12, 140);
+    padding: 50px;
+    background-color: #66fa04;
+    margin-bottom: 50px;
+
+
+}
+
+main {
+    border: 10px ridge #94badf;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+main>img {
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    
+    border: 10px outset #94badf;
+    height: 70px ;
+    width: 200px;
+    margin: 0% auto;
+    
+}
